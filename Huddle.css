@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .container1 {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  
+  .logo {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .btn-outline {
+    padding: 0.5rem 1rem;
+    border: 1px solid hotpink;
+    border-radius: 20px;
+    color: hotpink;
+    text-decoration: none; 
+    justify-content: flex-end;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background: hotpink;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background: #f9f9f9;
+    padding: 2rem 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  . {display: flex;
+    justify-content: space-around;
+
+  }
+  .stat {
+    margin-bottom: 1rem;
+  }
+  
+  .features {
+    padding: 3rem 0;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .feature.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .feature img {
+    width: 45%;
+  }
+  
+  .feature div {
+    width: 45%;
+  }
+  
+  .cta {
+    text-align: center;
+    padding: 3rem 0;
+    background: #f0f4f8;
+  }
+  
+  .footer {
+    background: #00252e;
+    color: white;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .footer
+    margin-bottom: 1rem;
+  }
+  
+  input[type="email"] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    background: hotpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }-brand,
+  .newsletter {
